@@ -58,7 +58,7 @@ console.log('Some stars:');
 for (let star of stars) {
   console.log(star);
 
-
+} 
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
@@ -68,18 +68,23 @@ console.log('Some stars using while:');
 // SOLUTION
 // we need to use the while loop and use the variable 'i' to get the index and 
 // the variable 'star' to get the element
-let i = 0;
+let j = 0;
 while (i < stars.length) {
-  console.log(stars[i]);
+  console.log(stars[j]);
+  i++;
+  }
+
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 // SOLUTION
 // we need to use the while loop and use the variable 'i' to get the index and
 // the variable 'i' to get the value
-let i = 0;
+let p = 0;
 while (i <= 5) {
-  console.log(i);
+  console.log(p);
+  i++;
+  }
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
@@ -89,4 +94,6 @@ console.log('count backwards from 10 to 5');
 let i = 10;
 while (i >= 5) {
   console.log(i);
+  i--;
+  }
   
